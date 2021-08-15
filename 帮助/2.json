@@ -1,0 +1,10 @@
+{
+ "__Author__": "Jonafanho",
+ "Title": "MTR Wiki",
+ "Description": "包含MTR游戏过程中所需大多数知识的官方英文百科",
+ "Keywords": "MTRWikipedia",
+ "Types": ["MTR"],
+ "IsEvent": true,
+ "EventType": "打开网页",
+ "EventData": "https://github.com/jonafanho/Minecraft-Transit-Railway/wiki"
+}
