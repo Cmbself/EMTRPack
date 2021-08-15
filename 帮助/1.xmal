@@ -1,0 +1,145 @@
+
+<local:MyHint Margin="0,0,0,15" Text="Tip：本教程只适用于beta7正式版。未来因为模组更新等不可抗力原因，本教程可能会过时，以模组最新版本为准。" IsWarn="False" />
+<!-- 需要补充 EventType “打开帮助”、
+     MyListItem 的简介、使用 MyListItem 跳转帮助或触发事件 等内容。 -->
+<local:MyCard Title="前言">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+                   Text="本篇简单介绍了MTRbeta7版本的游玩方法。" />
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                   Text="单独下载适用于1.16+和1.17+的MTRbeta7模组文件" EventType="打开网页" EventData="https://www.mcmod.cn/download/2157.html" ToolTip="单独下载模组文件" />
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                   Text="教程不够详细？点击这里获取视频教程。" EventType="打开网页" EventData="https://www.ixigua.com/6994819629113672233?logTag=d9d575482624ada21dbd" ToolTip="获取视频教程" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="说明">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="本教程针对新手编写，老手可忽略此教程。" />
+        <TextBlock Margin="0,0,0,4" 
+                   Text="本教程基于MTR 3.0.0-beta7版本制作。" />
+        <TextBlock Margin="0,0,0,4" 
+                   Text="所以，本教程不适用于整合包3.0及以下版本。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="基础教学1：铺轨" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                   Text="在升级到此版本后您的存档可能会出现铁轨消失的情况，在这种情况下您需要再次手动完成铺轨" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="首先，在您要铺铁轨的区段，两端分别放置一个铁轨节点。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="接着，找到适合的铁轨连接器，分别右键两个铁轨节点。。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="当看到地面上出现两条线时，就代表铺轨成功了，（不能使用原版铁轨哦）。" />
+   </StackPanel>
+</local:MyCard>
+<local:MyCard Title="基础教学2：车厂①">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="在Beta7版本中，线路必须要有车厂才可以发车。" />
+        <TextBlock Margin="0,0,0,4" 
+                   Text="在建设车厂之前，您必须有一块大小足够的空地。推荐大小50*30。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="在空地上，铺设若干条侧线铁轨，它们的长度最好大于＞30m。（1m=1格方块）。为了美观，建议您搭建顶棚等装饰。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="接着，使用普通铁轨把它们和正线连接起来。如果需要规定列车的行驶方向，请使用单向铁轨。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="然后打开列车仪表板，找到车厂那一项，新建车厂。完成后，这一步就进行的差不多了。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="此时请您设置发车间隔，编辑列车指令添加线路。（如果您还没有线路请看基础教学3.）退出设置界面，在地图界面中的小白点即是侧线，点击即可配置车型。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="如果显示找不到路径，请看下一节。" />                   
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="基础教学2：车厂②">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="如果显示找不到路径，就请建设折返线。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="折返线有两种样式。一是用掉头铁轨建造一个半圆，二是用单向铁轨和掉头铁轨配合使用来建造一个可以让列车换方向行驶的铁轨。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="基础教学3:站点与线路">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="在铁路仪表板中可以设置站点与线路。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="设置好站点后，就可以设置线路了。至少要有两个站才可以创建一条线路。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="在站内列车停车处需要使用月台铁轨。建好以后，您应该会在铁路仪表板的线路页面看到一些白点。它们即是月台。要想要列车停靠就点击它们。您最好把线路设置成设置一个来回。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="扩展教学：铁路仪表板">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="通过铁路仪表板，可以设置站点、线路、车厂等。。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="站点：在站点页面可以修改站点名、框选站点范围和删除站点，点进站点编辑页面还可以配置出入口。站点内的白点是月台铁轨的位置，单击它们可以配置列车停靠时间。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="路线：在路线页面可以新建路线，以及配置已有的路线。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="车厂：在这里可以配置车厂的发车时间、列车行驶命令以及刷新路线。点击车厂内的白点可以配置侧线的车型和编号。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="扩展教学：闸机与售票机、扶梯、指示牌">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="闸机分两种，出口和入口。只有在站点创建成功后才能使用闸机；进出闸机会消耗钱币，最少1元，若逃票（只出不进）会扣除500元。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="过闸机所需的钱币可以在售票机里充值。以绿宝石为交易货币，充值时扣除对应的的绿宝石数。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="扶梯需以阶梯式放置。使用刷子单击可以调转方向，双击则可以起到刷新错乱材质的作用。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="刷子右键单击指示牌可以设置指示牌内容，有许多选择。具体详见游戏中页面。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="后记">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="本教程还在不断更新中，若您也想参加此份教程的编写，可以到Github下载本份教程的代码文件，并在编辑完以后发送到邮箱[InterestingCmbself@gmail.com]!" />
+<local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                   Text="打开Github页面" EventType="打开网页" EventData="https://github.com/Cmbself/EMTRPack" ToolTip="Github" />
+    </StackPanel>
+</local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ 
+Image（图片）：
+ - Source：要显示的图片的网址
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ 
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ 
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ 
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+
+-->
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Cmbself 感谢阅读" IsWarn="False" />
