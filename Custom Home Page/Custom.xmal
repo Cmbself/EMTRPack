@@ -1,0 +1,94 @@
+<!-- 这里是EMTRPack整合包的自定义主页文件！
+本文件受Apache License 2.0保护！-->
+
+<local:MyCard Title="什么是‘MTR’？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="MTR是以香港的地铁系统为基础的我的世界模组。 它增加了火车与其他杂项方块物品。有了这个模组，就可以在世界里建立一个功能齐全的铁路系统！" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="更新提示:此版本更换了MTRMod的版本，升级为beta8，请您在游玩之前先备份您的存档！不建议您在已经建造了的存档上运行它！像对待我的世界快照一样对待它。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="转到“更多\帮助”页面，可以查看有关MTR的教程。" />                           
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="本月赞助者列表" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="@子宸  @深广市制作  @amongus" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="感谢以上三位的支持！" />
+        <local:MyHint IsWarn="False"
+                   Text="特别感谢 @很娘少年 的支持！" />              
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="整合包介绍" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="本整合包是为了无法安装MTR而又想玩MTR的MC玩家准备的" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="所有的必要条件都已准备好" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="您可以无忧地游玩MTR" />           
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="点击左侧‘启动游戏’即可游玩" />        
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="注意事项" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="如果您想装载其他MOD，请注意Mod的版本！以下是整合包中自带版本的信息。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Minecraft1.16.5;Fabric Loader 0.11.6；Fabric API 0.34.6" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="1.16.5及以下版本需要Java8，1.17及以上版本需要Java16。" />
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="MTR3.0.0-Beta7" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="EMTRPack4.0; 内部版本号210818" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Minecraft1.16.5" />
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="相关网站" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="MTR官方维基百科" EventType="打开网页" EventData="https://github.com/jonafanho/Minecraft-Transit-Railway/wiki" />
+        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="该模组的介绍页面" EventType="打开网页" EventData="https://modrinth.com/mod/minecraft-transit-railway" />
+        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="帮助作者翻译MTR" EventType="打开网页" EventData="https://crowdin.com/project/minecraft-transit-railway?already_accepted=14798622" />
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="附：著作权信息板" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="整合包总制作人：@Cmbself" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Plain Craft Launcher启动器作者：@龙腾猫跃" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Minecraft Transit Railway Mod作者:@Jonafanho" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Fancy Menu Mod作者：@Keksuccino" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Fabric Mod Loader/Fabric API 作者：FabricMC" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="Iris Shaders Mod作者：@Coderbot" />
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="附：MTRbeta7更新日志中文版" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
+                   Text="- 车辆段&#xA;- 侧线、折返线和单行线&#xA;- 能够为现有的火车模型和铁路标志添加自定义材质&#xA;- 铁轨现在是世界存储数据的一部分，当玩家离得太远时不会消失。&#xA;- 增加了机场快线（迷你）、K-Train和轻铁一期（翻新）、三期、四期和五期&#xA;- 列车门动画&#xA;- 改进了动态FPS提升，火车不再闪烁&#xA;- 所有列车的纹理改进&#xA;- 车站出口标志&#xA;- 改进了路径搜索&#xA;- 列车不再重叠，但如果前方有一段铁路被占用，列车会等待。&#xA;- 改进对光影的支持&#xA;- 支持1.17+和1.18EXP快照&#xA;- 增加了更多类型的车票处理器&#xA;- 增加了对Sodium（钠）模组的兼容性&#xA;- 轻轨的声音&#xA;- 更多回放Mod支持" />
+   </StackPanel>
+</local:MyCard>
